@@ -1,0 +1,1136 @@
+
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bimbel CPNS</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="{{ asset('images/favicon.ico') }}">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <header class="site-header">
+        <nav class="navbar navbar-expand-lg navbar-custom">
+            <div class="container">
+
+                <!-- Logo -->
+                <a class="navbar-brand" href="#beranda">
+                    <img src="{{ asset('images/logo-privat-nusantara-web.webp') }}" alt="Privat Nusantara">
+                </a>
+
+                <!-- Toggle Mobile -->
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarMenu"
+                    aria-controls="navbarMenu"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Menu -->
+                <div class="collapse navbar-collapse" id="navbarMenu">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#beranda"><b>Beranda</b></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#produk"><b>Produk</b></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#kontak"><b>Tentang</b></a>
+                        </li>
+                    </ul>
+
+                    <a href="bimbelcpns.id" class="btn-contact">
+                        <b>Kontak Kami</b>
+                    </a>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero-section" id="beranda">
+
+        <!-- Dekorasi Kubus -->
+        <div class="hero-cube cube-one">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="hero-cube cube-two">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="hero-cube cube-three">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="container">
+            <div class="row align-items-center">
+
+                <!-- Hero Kiri -->
+                <div class="col-lg-7">
+                    <div class="hero-content">
+
+                        <h1>
+                            Bimbel {region} untuk Persiapan CPNS, PPPK & BUMN Bersama Pengajar Berpengalaman
+                        </h1>
+
+                        <p>
+                            Menghadapi seleksi CPNS, PPPK, dan BUMN membutuhkan persiapan yang matang, bukan hanya mengandalkan latihan soal secara mandiri. Privat Nusantara menghadirkan program <strong>bimbel {region}</strong> dengan pendampingan pengajar berpengalaman untuk membantu peserta memahami materi dan meningkatkan kesiapan menghadapi ujian.
+                        </p>
+
+                        <p>
+                            Melalui sistem belajar yang terarah, peserta mendapatkan bimbingan sesuai kebutuhan seleksi, mulai dari pemahaman konsep, pembahasan soal, hingga strategi menghadapi tes.
+                        </p>
+
+                        <p>
+                            Tersedia pilihan pembelajaran <strong>bimbel ke rumah {region}</strong> maupun kelas online melalui Zoom/Google Meet dengan tutor yang membantu peserta belajar lebih efektif.
+                        </p>
+
+                        <ul class="hero-list">
+                            <li><i class="bi bi-check-lg"></i>Konsultasi Program Belajar Gratis</li>
+                            <li><i class="bi bi-check-lg"></i>Materi Seleksi Terarah</li>
+                            <li><i class="bi bi-check-lg"></i>Pendampingan Bersama Tutor Berpengalaman</li>
+                            <li><i class="bi bi-check-lg"></i>Latihan Soal & Evaluasi Berkala</li>
+                        </ul>
+
+                        <a href="#konsultasi" class="btn-hero">
+                            Konsultasi Gratis
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <!-- Hero Kanan -->
+                <div class="col-lg-5">
+                    <div class="hero-image">
+                        <img src="{{ asset('images/cpns.webp') }}"
+                            alt="Bimbel CPNS, PPPK dan BUMN Privat Nusantara">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Dekorasi bawah -->
+        <div class="hero-cube cube-four">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+    </section>
+ 
+    <!-- PROGRAM BIMBEL -->
+    <section class="program-section" id="program">
+
+        <!-- DECORATION -->
+        <div class="program-cube">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="program-circle"></div>
+
+        <div class="container">
+
+            <!-- Section Heading -->
+            <div class="program-intro">
+                <h2>Program Bimbel CPNS, PPPK & BUMN dengan Strategi Belajar yang Terarah</h2>
+
+                <p>
+                    Persaingan dalam seleksi CPNS, PPPK, dan BUMN semakin tinggi sehingga peserta membutuhkan persiapan yang sistematis. Privat Nusantara membantu peserta membangun kemampuan melalui program belajar yang dirancang berdasarkan kebutuhan seleksi.
+                </p>
+
+                <p>
+                    Kami mendampingi peserta dalam memahami pola ujian, memperkuat materi yang diperlukan, serta meningkatkan kemampuan menyelesaikan soal dengan lebih cepat dan tepat.
+                </p>
+            </div>
+
+            <!-- Metode Pembelajaran -->
+            <div class="program-methods">
+
+                <div class="method-card">
+                    <div class="method-icon">
+                        <img src="{{ asset('images/icon-offline.svg') }}" alt="Bimbel Tatap Muka">
+                    </div>
+
+                    <div class="method-content">
+                        <h3>Bimbel Tatap Muka {region}</h3>
+                        <p>
+                            Pembelajaran langsung bersama tutor dengan pendampingan yang lebih personal.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="method-card">
+                    <div class="method-icon">
+                        <img src="{{ asset('images/icon-online.svg') }}" alt="Bimbel Online">
+                    </div>
+
+                    <div class="method-content">
+                        <h3>Bimbel Online</h3>
+                        <p>
+                            Kelas fleksibel melalui Zoom/Google Meet yang dapat diikuti dari berbagai lokasi.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Cakupan Seleksi -->
+            <div class="program-coverage">
+                <div class="coverage-heading">
+                    <h3>Program bimbel kami mendukung persiapan berbagai seleksi, termasuk:</h3>
+                </div>
+
+                <div class="coverage-list">
+
+                    <div class="coverage-item">
+                        <i class="bi bi-check-lg"></i>
+                        <span>CPNS</span>
+                    </div>
+
+                    <div class="coverage-item">
+                        <i class="bi bi-check-lg"></i>
+                        <span>PPPK</span>
+                    </div>
+
+                    <div class="coverage-item">
+                        <i class="bi bi-check-lg"></i>
+                        <span>BUMN</span>
+                    </div>
+
+                    <div class="coverage-item">
+                        <i class="bi bi-check-lg"></i>
+                        <span>Seleksi kerja dan ujian kompetensi lainnya</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Closing -->
+            <div class="program-closing">
+                <p>
+                    Dengan metode belajar yang terstruktur dan pengajar yang kompeten, Privat Nusantara membantu peserta mempersiapkan diri secara lebih percaya diri untuk menghadapi proses seleksi.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- PERSIAPAN SECTION -->
+    <section class="preparation-section">
+        <!-- BACKGROUND CUBES -->
+        <div class="preparation-cube cube-one">
+            <span></span><span></span><span></span>
+        </div>
+
+        <div class="preparation-cube cube-two">
+            <span></span><span></span><span></span>
+        </div>
+
+        <div class="preparation-cube cube-three">
+            <span></span><span></span><span></span>
+        </div>
+
+
+        <div class="container">
+            <div class="preparation-wrapper">
+
+                <!-- CONTENT LEFT -->
+                <div class="preparation-content">
+                    <h2>Tingkatkan Peluang Lolos dengan Persiapan yang Lebih Terarah</h2>
+
+                    <p>
+                        Banyak peserta gagal bukan karena kurang kemampuan, tetapi karena belum memiliki strategi belajar yang sesuai dengan pola seleksi.
+                    </p>
+
+                    <p>
+                        Privat Nusantara membantu peserta mempersiapkan ujian melalui pendekatan belajar yang lebih terencana. Tutor membantu mengidentifikasi kelemahan, memperkuat pemahaman materi, dan memberikan latihan yang relevan dengan kebutuhan tes.
+                    </p>
+
+                    <p>
+                        Mulai dari peserta yang baru memulai persiapan hingga yang ingin meningkatkan hasil latihan, program bimbel dirancang agar proses belajar menjadi lebih fokus dan terukur.
+                    </p>
+                </div>
+
+                <!-- CHECKLIST RIGHT -->
+                <div class="preparation-benefits">
+                    <div class="preparation-item">
+                        <i class="bi bi-check-lg"></i>
+                        <span>Materi disesuaikan dengan kebutuhan seleksi</span>
+                    </div>
+
+                    <div class="preparation-item">
+                        <i class="bi bi-check-lg"></i>
+                        <span>Tutor membantu memahami pola dan strategi pengerjaan soal</span>
+                    </div>
+
+                    <div class="preparation-item">
+                        <i class="bi bi-check-lg"></i>
+                        <span>Evaluasi belajar untuk melihat perkembangan peserta</span>
+                    </div>
+
+                    <div class="preparation-item">
+                        <i class="bi bi-check-lg"></i>
+                        <span>Pendampingan hingga lebih siap menghadapi ujian</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- KEUNGGULAN SECTION -->
+    <section class="keunggulan-section">
+        <!-- BACKGROUND CUBES -->
+        <div class="keunggulan-cube cube-one">
+            <span></span><span></span><span></span>
+        </div>
+
+        <div class="keunggulan-cube cube-two">
+            <span></span><span></span><span></span>
+        </div>
+
+        <div class="keunggulan-cube cube-three">
+            <span></span><span></span><span></span>
+        </div>
+        <div class="container">
+
+            <!-- HEADING -->
+            <div class="keunggulan-heading">
+                <h2>Alasan Memilih Privat Nusantara untuk Persiapan CPNS, PPPK & BUMN</h2>
+            </div>
+
+            <!-- CARDS -->
+            <div class="keunggulan-grid">
+
+                <div class="keunggulan-card">
+                    <div class="keunggulan-icon">
+                        <img src="{{ asset('images/keunggulan/keunggulan-1.png') }}" alt="">
+                    </div>
+                    <h3>Pendampingan Belajar Sesuai Target Seleksi</h3>
+                    <p>
+                        Setiap peserta memiliki tujuan dan tingkat persiapan yang berbeda. Privat Nusantara membantu menyusun proses belajar yang lebih terarah agar peserta dapat fokus pada materi yang dibutuhkan untuk menghadapi seleksi CPNS, PPPK, maupun BUMN.
+                    </p>
+                </div>
+
+                <div class="keunggulan-card">
+                    <div class="keunggulan-icon">
+                        <img src="{{ asset('images/keunggulan/keunggulan-2.png') }}" alt="">
+                    </div>
+                    <h3>Pengajar dengan Pengalaman Membimbing Peserta Ujian</h3>
+                    <p>
+                        Kami menghadirkan tutor yang memahami kebutuhan persiapan tes dan mampu membantu peserta mempelajari materi secara lebih sistematis. Setiap sesi dirancang agar peserta tidak hanya memahami teori, tetapi juga mampu menerapkannya dalam latihan soal.
+                    </p>
+                </div>
+
+                <div class="keunggulan-card">
+                    <div class="keunggulan-icon">
+                        <img src="{{ asset('images/keunggulan/keunggulan-3.png') }}" alt="">
+                    </div>
+                    <h3>Pembelajaran Personal dan Lebih Fokus</h3>
+                    <p>
+                        Melalui sistem bimbel privat, peserta mendapatkan ruang belajar yang lebih nyaman untuk bertanya, berdiskusi, dan memperdalam materi yang masih belum dikuasai.
+                    </p>
+                </div>
+
+                <div class="keunggulan-card">
+                    <div class="keunggulan-icon">
+                        <img src="{{ asset('images/keunggulan/keunggulan-4.png') }}" alt="">
+                    </div>
+                    <h3>Latihan Soal dan Analisis Perkembangan</h3>
+                    <p>
+                        Persiapan seleksi membutuhkan latihan yang konsisten. Karena itu, peserta mendapatkan pembahasan soal dan evaluasi untuk mengetahui perkembangan kemampuan serta memperbaiki strategi belajar.
+                    </p>
+                </div>
+
+                <div class="keunggulan-card">
+                    <div class="keunggulan-icon">
+                        <img src="{{ asset('images/keunggulan/keunggulan-5.png') }}" alt="">
+                    </div>
+                    <h3>Pilihan Belajar Fleksibel Sesuai Kebutuhan</h3>
+                    <p>
+                        Privat Nusantara menyediakan metode pembelajaran yang dapat disesuaikan dengan aktivitas peserta, baik melalui pertemuan langsung maupun kelas online.
+                    </p>
+                </div>
+
+                <div class="keunggulan-card">
+                    <div class="keunggulan-icon">
+                        <img src="{{ asset('images/keunggulan/keunggulan-6.png') }}" alt="">
+                    </div>
+                    <h3>Program Belajar dengan Sistem yang Praktis</h3>
+                    <p>
+                        Mulai dari konsultasi awal hingga proses pembelajaran, Privat Nusantara membantu peserta mendapatkan program yang sesuai dengan kebutuhan persiapan seleksi.
+                    </p>
+                </div>
+
+                <div class="keunggulan-card">
+                    <div class="keunggulan-icon">
+                        <img src="{{ asset('images/keunggulan/keunggulan-7.png') }}" alt="">
+                    </div>
+                    <h3>Tim Support yang Siap Mendampingi</h3>
+                    <p>
+                        Tim kami siap memberikan informasi mengenai program, pilihan tutor, sistem belajar, dan rekomendasi persiapan yang sesuai dengan target peserta.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- TUTOR SECTION -->
+    <section class="tutor-section" id="tutor">
+
+        <!-- DECORATION -->
+        <div class="tutor-cube">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="tutor-circle"></div>
+
+        <div class="container">
+
+            <div class="tutor-wrapper">
+
+                <!-- CONTENT -->
+                <div class="tutor-content">
+
+                    <span class="tutor-label">TIM PENGAJAR KAMI</span>
+
+                    <h2>Tutor Berpengalaman untuk Mendukung Persiapan Seleksi Anda</h2>
+
+                    <p>
+                        Memilih pendamping belajar yang tepat dapat membantu peserta memahami materi secara lebih efektif. Privat Nusantara bekerja sama dengan pengajar yang memiliki pengalaman akademik dan kemampuan mengajar sesuai bidang masing-masing.
+                    </p>
+
+                    <p>
+                        Tim tutor kami terdiri dari guru berpengalaman, dosen, asisten dosen, mahasiswa berprestasi, serta alumni dari berbagai perguruan tinggi ternama seperti UI, UGM, ITB, IPB, STAN, STIS, UNJ, SSE, UIN, dan universitas unggulan lainnya.
+                    </p>
+
+                    <p>
+                        Setiap pengajar melalui proses seleksi untuk memastikan kemampuan akademik dan kualitas penyampaian materi. Tutor membantu peserta memahami konsep, membahas latihan soal, serta menyusun strategi belajar yang lebih efektif.
+                    </p>
+
+                    <p>
+                        Privat Nusantara membantu peserta mendapatkan bimbingan yang tepat untuk menghadapi seleksi CPNS, PPPK, dan BUMN di {region}.
+                    </p>
+
+                    <a href="#kontak" class="tutor-button">
+                        Konsultasi Sekarang
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+
+                </div>
+
+                <!-- TUTOR IMAGE -->
+                <div class="tutor-visual">
+                    <img
+                        src="{{ asset('images/guru.webp') }}"
+                        alt="Tutor Berpengalaman Privat Nusantara"
+                    >
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- SECTION CPNS -->
+    <section class="cpns-section" id="cpns">
+
+        <!-- ORNAMEN -->
+        <div class="cpns-cube">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="cpns-circle"></div>
+
+        <div class="container">
+
+            <!-- HEADING -->
+            <div class="cpns-heading">
+
+                <div class="cpns-heading-content">
+                    <span class="cpns-label">PERSIAPAN SELEKSI</span>
+
+                    <h2>Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing</h2>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+
+                <div class="cpns-heading-image">
+                    <img src="{{ asset('images/cpns-image.webp') }}"
+                         alt="Persiapan seleksi CPNS">
+                </div>
+
+            </div>
+
+
+            <!-- 4 KOLOM -->
+            <div class="cpns-grid">
+
+                <div class="cpns-card">
+                    <div class="cpns-card-number">01</div>
+
+                    <h3>Lorem Ipsum Dolor</h3>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Integer nec odio. Praesent libero. Sed cursus ante
+                        dapibus diam.
+                    </p>
+                </div>
+
+
+                <div class="cpns-card">
+                    <div class="cpns-card-number">02</div>
+
+                    <h3>Consectetur Adipiscing</h3>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nulla quis sem at nibh elementum imperdiet. Duis
+                        sagittis ipsum.
+                    </p>
+                </div>
+
+
+                <div class="cpns-card">
+                    <div class="cpns-card-number">03</div>
+
+                    <h3>Sed Do Eiusmod</h3>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Mauris massa. Vestibulum lacinia arcu eget nulla.
+                    </p>
+                </div>
+
+
+                <div class="cpns-card">
+                    <div class="cpns-card-number">04</div>
+
+                    <h3>Tempor Incididunt</h3>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Class aptent taciti sociosqu ad litora torquent per
+                        conubia nostra.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- TESTIMONI SECTION -->
+    <section class="testimoni-section" id="testimoni">
+
+        <!-- DECORATION -->
+        <div class="testimoni-shape testimoni-shape-left"></div>
+        <div class="testimoni-star">
+            <i class="bi bi-stars"></i>
+        </div>
+
+        <div class="container">
+
+            <div class="testimoni-heading">
+                <span class="testimoni-label">CERITA MEREKA</span>
+                <h2>Cerita Peserta yang Mempersiapkan Target Karier Bersama Privat Nusantara</h2>
+            </div>
+
+            <div class="testimoni-area">
+
+                <div class="testimoni-grid">
+
+                    <!-- TESTIMONI 1 -->
+                    <div class="testimoni-card">
+
+                        <div class="testimoni-card-top">
+                            <span class="testimoni-tag">Peserta Privat Nusantara</span>
+                            <div class="testimoni-star">
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                        </div>
+
+                        <p class="testimoni-quote">
+                            "Sebelum mengikuti bimbingan, saya masih kesulitan memahami pola soal seleksi. Bersama tutor Privat Nusantara, saya mendapatkan arahan belajar yang lebih terstruktur dan lebih percaya diri menghadapi ujian."
+                        </p>
+
+                        <div class="testimoni-profile">
+                            <div class="testimoni-info">
+                                <h3>Angga</h3>
+                                <span>Peserta Bimbingan</span>
+                            </div>
+
+                            <img
+                                src="{{ asset('images/testimoni-1.webp') }}"
+                                alt="Angga, peserta Privat Nusantara"
+                            >
+                        </div>
+
+                    </div>
+
+                    <!-- TESTIMONI 2 -->
+                    <div class="testimoni-card">
+
+                        <div class="testimoni-card-top">
+                            <span class="testimoni-tag">Orang Tua Peserta Privat Nusantara</span>
+                            <div class="testimoni-star">
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                        </div>
+
+                        <p class="testimoni-quote">
+                            "Program belajar Privat Nusantara membantu anak saya mempersiapkan ujian dengan lebih disiplin. Materi dijelaskan dengan baik dan latihan soal membuat persiapannya semakin matang."
+                        </p>
+
+                        <div class="testimoni-profile">
+                            <div class="testimoni-info">
+                                <h3>Bapak Edo</h3>
+                                <span>Orang Tua Peserta</span>
+                            </div>
+
+                            <img
+                                src="{{ asset('images/testimoni-2.webp') }}"
+                                alt="Bapak Edo, orang tua peserta Privat Nusantara"
+                            >
+                        </div>
+
+                    </div>
+
+                    <!-- TESTIMONI 3 -->
+                    <div class="testimoni-card">
+
+                        <div class="testimoni-card-top">
+                            <span class="testimoni-tag">Peserta Privat Nusantara</span>
+                            <div class="testimoni-star">
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                        </div>
+
+                        <p class="testimoni-quote">
+                            "Metode belajar yang diberikan tutor sangat membantu. Pembahasan soal menjadi lebih mudah dipahami dan saya jadi mengetahui strategi yang tepat dalam menghadapi tes."
+                        </p>
+
+                        <div class="testimoni-profile">
+                            <div class="testimoni-info">
+                                <h3>Niko</h3>
+                                <span>Peserta Bimbingan</span>
+                            </div>
+
+                            <img
+                                src="{{ asset('images/testimoni-3.webp') }}"
+                                alt="Niko, peserta Privat Nusantara"
+                            >
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- PERSIAPAN KARIER SECTION -->
+    <section class="career-section" id="persiapan-karier">
+
+        <!-- BACKGROUND DECORATION -->
+        <div class="career-wave"></div>
+
+        <div class="career-cube career-cube-left">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="career-cube career-cube-right">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="container">
+
+            <!-- SECTION HEADING -->
+            <div class="career-heading">
+                <span class="career-label">PERSIAPAN KARIER</span>
+                <h2>Persiapkan Masa Depan Karier dengan Bimbingan yang Tepat</h2>
+            </div>
+
+            <!-- SECTION CONTENT -->
+            <div class="career-wrapper">
+
+                <!-- IMAGE -->
+                <div class="career-image">
+                    <img
+                        src="{{ asset('images/lesson.webp') }}"
+                        alt="Suasana pembelajaran Privat Nusantara"
+                    >
+                </div>
+
+                <!-- TEXT CONTENT -->
+                <div class="career-content">
+
+                    <h3>Bimbingan Belajar Privat Nusantara</h3>
+
+                    <p>
+                        Seleksi CPNS, PPPK, dan BUMN menjadi kesempatan besar bagi banyak peserta untuk membangun karier. Namun, persaingan yang tinggi membuat persiapan yang matang menjadi hal penting.
+                    </p>
+
+                    <p>
+                        Privat Nusantara menghadirkan layanan <strong>bimbel {region}</strong> untuk membantu peserta memahami materi seleksi, meningkatkan kemampuan mengerjakan soal, serta belajar dengan strategi yang lebih terarah.
+                    </p>
+
+                    <p>
+                        Dengan dukungan tutor berpengalaman dan pilihan pembelajaran fleksibel, peserta dapat mempersiapkan diri sesuai target tanpa harus terbatas oleh waktu dan lokasi.
+                    </p>
+
+                    <p>
+                        Baik melalui <strong>bimbel ke rumah {region}</strong> maupun kelas online, Privat Nusantara siap mendampingi proses belajar Anda agar lebih fokus dan optimal.
+                    </p>
+
+                    <p>
+                        Mulai persiapan lebih awal dan tingkatkan kesiapan menghadapi seleksi CPNS, PPPK, dan BUMN bersama Privat Nusantara.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- REGION SECTION -->
+    <section class="region-section" id="wilayah">
+
+        <div class="region-cube region-cube-one">
+            <span></span><span></span><span></span>
+        </div>
+
+        <div class="region-cube region-cube-two">
+            <span></span><span></span><span></span>
+        </div>
+
+        <div class="region-circle"></div>
+
+        <div class="container">
+
+            <div class="region-heading">
+                <span class="region-label">Jangkauan Layanan</span>
+                <h2>Layanan Les Privat CPNS di Berbagai Kota di Indonesia</h2>
+            </div>
+
+            <div class="region-list">
+
+                <a href="bimbelcpns.id" class="region-item">Jakarta</a>
+                <a href="bimbelcpns.id" class="region-item">Bandung</a>
+                <a href="bimbelcpns.id" class="region-item">Surabaya</a>
+                <a href="bimbelcpns.id" class="region-item">Medan</a>
+                <a href="bimbelcpns.id" class="region-item">Semarang</a>
+                <a href="bimbelcpns.id" class="region-item">Makassar</a>
+                <a href="bimbelcpns.id" class="region-item">Palembang</a>
+                <a href="bimbelcpns.id" class="region-item">Pekanbaru</a>
+                <a href="bimbelcpns.id" class="region-item">Bekasi</a>
+                <a href="bimbelcpns.id" class="region-item">Malang</a>
+                <a href="bimbelcpns.id" class="region-item">Solo</a>
+                <a href="bimbelcpns.id" class="region-item">Batam</a>
+                <a href="bimbelcpns.id" class="region-item">Balikpapan</a>
+                <a href="bimbelcpns.id" class="region-item">Bontang</a>
+                <a href="bimbelcpns.id" class="region-item">Kutai Kartanegara</a>
+                <a href="bimbelcpns.id" class="region-item">Kediri</a>
+                <a href="bimbelcpns.id" class="region-item">Sidoarjo</a>
+                <a href="bimbelcpns.id" class="region-item">Gresik</a>
+                <a href="bimbelcpns.id" class="region-item">Banyuwangi</a>
+                <a href="bimbelcpns.id" class="region-item">Cilegon</a>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="faq-section" id="faq">
+
+        <!-- ORNAMEN -->
+        <div class="faq-cube">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="faq-circle"></div>
+
+        <div class="container">
+            <div class="row g-5 align-items-start">
+
+                <!-- KOLOM KIRI -->
+                <div class="col-lg-5">
+                    <div class="faq-intro">
+
+                        <span class="faq-label">FAQ</span>
+
+                        <h2>Pertanyaan Seputar Program Bimbel CPNS, PPPK & BUMN Privat Nusantara</h2>
+
+                        <p>
+                            Masih memiliki pertanyaan seputar program bimbel Privat Nusantara? Temukan informasi mengenai pilihan program, metode belajar, materi, biaya, hingga proses pendaftaran melalui daftar pertanyaan berikut.
+                        </p>
+
+                        <div class="faq-image-wrap">
+                            <div class="faq-image">
+                                <img src="{{ asset('images/image-faq.webp') }}"
+                                     alt="Bimbingan belajar Privat Nusantara">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- KOLOM KANAN -->
+                <div class="col-lg-7">
+                    <div class="accordion faq-list" id="faqAccordion">
+
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true">
+                                    Apa saja program bimbel yang tersedia di Privat Nusantara?
+                                </button>
+                            </h3>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Privat Nusantara menyediakan program <strong>bimbel {region}</strong> untuk membantu peserta mempersiapkan berbagai seleksi seperti CPNS, PPPK, dan BUMN. Program belajar dirancang untuk membantu peserta memahami materi, meningkatkan kemampuan mengerjakan soal, serta mempersiapkan diri menghadapi ujian.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    Apakah tersedia bimbel ke rumah dan online?
+                                </button>
+                            </h3>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Ya. Peserta dapat memilih layanan <strong>bimbel ke rumah {region}</strong> dengan tutor yang datang langsung atau mengikuti pembelajaran online melalui Zoom/Google Meet. Metode belajar dapat disesuaikan dengan kebutuhan dan kondisi peserta.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    Materi apa saja yang dipelajari dalam program bimbel?
+                                </button>
+                            </h3>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Materi pembelajaran disesuaikan dengan jenis seleksi yang dipersiapkan. Peserta mendapatkan pendampingan untuk memahami konsep, membahas latihan soal, serta mempelajari strategi pengerjaan agar lebih siap menghadapi ujian.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                    Bagaimana cara memilih program bimbel yang sesuai?
+                                </button>
+                            </h3>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Tim Privat Nusantara akan membantu menentukan program berdasarkan target seleksi, tingkat persiapan peserta, kebutuhan materi, serta metode belajar yang paling sesuai.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                                    Apakah bisa konsultasi sebelum mendaftar?
+                                </button>
+                            </h3>
+                            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Tentu. Kami menyediakan konsultasi gratis untuk membantu peserta memahami program yang tersedia dan mendapatkan rekomendasi pembelajaran sesuai tujuan seleksi.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">
+                                    Apakah jadwal belajar dapat disesuaikan?
+                                </button>
+                            </h3>
+                            <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Bisa. Jadwal pembelajaran dapat diatur secara fleksibel berdasarkan kesepakatan antara peserta dan tutor agar proses belajar tetap nyaman dilakukan di tengah aktivitas lainnya.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq7">
+                                    Berapa biaya program bimbel CPNS, PPPK, dan BUMN?
+                                </button>
+                            </h3>
+                            <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Biaya program menyesuaikan kebutuhan peserta, seperti jumlah pertemuan, metode pembelajaran, dan program yang dipilih. Hubungi tim Privat Nusantara untuk mendapatkan informasi paket yang sesuai.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq8">
+                                    Apakah tersedia latihan soal untuk persiapan seleksi?
+                                </button>
+                            </h3>
+                            <div id="faq8" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Ya. Program bimbel mencakup latihan dan pembahasan soal untuk membantu peserta memahami pola ujian, meningkatkan kecepatan pengerjaan, serta mengevaluasi kemampuan secara berkala.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq9">
+                                    Bagaimana perkembangan belajar peserta dipantau?
+                                </button>
+                            </h3>
+                            <div id="faq9" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Tutor membantu melihat perkembangan peserta melalui proses evaluasi dan pembahasan hasil latihan. Hal ini membantu menentukan materi yang masih perlu diperkuat sebelum menghadapi seleksi.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq10">
+                                    Apakah tutor dapat datang langsung ke lokasi peserta?
+                                </button>
+                            </h3>
+                            <div id="faq10" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Ya. Layanan <strong>bimbel ke rumah {region}</strong> tersedia bagi peserta yang membutuhkan pendampingan tatap muka bersama tutor secara lebih personal.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq11">
+                                    Bagaimana cara mendaftar program bimbel Privat Nusantara?
+                                </button>
+                            </h3>
+                            <div id="faq11" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Hubungi tim Privat Nusantara untuk melakukan konsultasi awal. Kami akan membantu menentukan kebutuhan belajar, memilih program yang tepat, serta mengatur jadwal pembelajaran bersama tutor.
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA PENUTUP -->
+    <section class="closing-section" id="konsultasi">
+
+        <div class="closing-decoration closing-decoration-one"></div>
+        <div class="closing-decoration closing-decoration-two"></div>
+        <div class="closing-decoration closing-decoration-three"></div>
+
+        <div class="container">
+            <div class="closing-wrapper">
+
+                <!-- GAMBAR KIRI -->
+                <div class="closing-image">
+                    <img src="{{ asset('images/final.webp') }}" alt="Persiapan seleksi CPNS, PPPK dan BUMN Privat Nusantara">
+                </div>
+
+                <!-- KONTEN KANAN -->
+                <div class="closing-content">
+
+                    <span class="closing-label">MULAI PERSIAPAN ANDA</span>
+
+                    <h2>
+                        Mulai Persiapan <span>CPNS, PPPK & BUMN</span>
+                        Bersama Privat Nusantara
+                    </h2>
+
+                    <p>
+                        Mempersiapkan seleksi CPNS, PPPK, dan BUMN membutuhkan strategi belajar yang tepat serta pendampingan yang konsisten. Privat Nusantara hadir melalui layanan <strong>bimbel {region}</strong> untuk membantu peserta belajar lebih fokus dan terarah.
+                    </p>
+
+                    <p>
+                        Dengan dukungan tutor berpengalaman, peserta dapat memahami materi seleksi, meningkatkan kemampuan analisis soal, serta mendapatkan arahan belajar sesuai target yang ingin dicapai.
+                    </p>
+
+                    <p>
+                        Tersedia pilihan <strong>bimbel ke rumah {region}</strong> maupun pembelajaran online yang memberikan fleksibilitas bagi peserta dengan berbagai kondisi dan kesibukan.
+                    </p>
+
+                    <p>
+                        Privat Nusantara membantu Anda membangun persiapan yang lebih matang melalui metode belajar personal, latihan terstruktur, dan evaluasi perkembangan secara berkala.
+                    </p>
+
+                    <p class="closing-last-paragraph">
+                        Mulai langkah persiapan Anda sekarang dan dapatkan pendampingan terbaik untuk menghadapi seleksi CPNS, PPPK, dan BUMN.
+                    </p>
+
+                    <a href="#kontak" class="closing-button">
+                        Konsultasi Sekarang
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+
+            <div class="footer-main">
+
+                <!-- Kiri: Profil -->
+                <div class="footer-about">
+                    <a href="#beranda" class="footer-logo">
+                        <img src="{{ asset('images/logo-privat-nusantara-web.webp') }}" alt="Privat Nusantara">
+                    </a>
+
+                    <p>
+                        <strong>Privat Nusantara</strong> menyediakan layanan les privat
+                        dengan program belajar yang disesuaikan dengan kebutuhan, tingkat
+                        kemampuan, dan tujuan peserta. Didukung pendampingan guru, kami
+                        membantu proses belajar menjadi lebih terarah dan fleksibel.
+                    </p>
+                </div>
+
+                <!-- Tengah: Alamat -->
+                <div class="footer-address">
+                    <h3>Alamat Kantor Privat Nusantara</h3>
+                    <h4>Depok</h4>
+                    <p>
+                        Jl. Kukusan Raya No.10D, RT.5/RW.2, Kukusan,
+                        Kecamatan Beji, Kota Depok, Jawa Barat 16425
+                    </p>
+                </div>
+
+                <!-- Kanan: Produk -->
+                <div class="footer-products">
+                    <h3>Produk Privat Nusantara</h3>
+
+                    <ul class="footer-product-list">
+                        <li><a href="https://bimbelcpns.id/?kebutuhan=Les%20Privat%20Calistung">Calistung</a></li>
+                        <li><a href="https://bimbelcpns.id/?kebutuhan=Les%20Privat%20SD">SD</a></li>
+                        <li><a href="https://bimbelcpns.id/?kebutuhan=Les%20Privat%20SMP">SMP</a></li>
+                        <li><a href="https://bimbelcpns.id/?kebutuhan=Les%20Privat%20SMA">SMA</a></li>
+                        <li><a href="https://bimbelcpns.id/?kebutuhan=Les%20Privat%20TKA">TKA</a></li>
+                        <li><a href="https://bimbelcpns.id/?kebutuhan=Les%20Privat%20OSN%20/%20IMO">OSN / IMO</a></li>
+                        <li><a href="https://bimbelcpns.id/?kebutuhan=Les%20Privat%20Bahasa%20Asing">Bahasa Asing</a></li>
+                        <li><a href="https://bimbelcpns.id/?kebutuhan=Les%20Privat%20UTBK">UTBK</a></li>
+                        <li><a href="https://bimbelcpns.id/?kebutuhan=Les%20Privat%20UMPTN">UMPTN</a></li>
+                        <li><a href="https://bimbelcpns.id/?kebutuhan=Les%20Privat%20UMPTKIN">UMPTKIN</a></li>
+                        <li><a href="https://bimbelcpns.id/?kebutuhan=Les%20Privat%20Kedokteran">Kedokteran</a></li>
+                        <li><a href="https://bimbelcpns.id/?kebutuhan=Les%20Privat%20Toefl,%20Toafl,%20IELTS">Toefl, Toafl, IELTS</a></li>
+                        <li><a href="https://bimbelcpns.id/?kebutuhan=Les%20Privat%20Mahasiswa">Mahasiswa</a></li>
+                        <li><a href="https://bimbelcpns.id/?kebutuhan=Les%20Privat%20BIPA">BIPA</a></li>
+                        <li><a href="https://bimbelcpns.id/?kebutuhan=Les%20Privat%20Akmil">Akmil</a></li>
+                        <li><a href="https://bimbelcpns.id/?kebutuhan=Les%20Privat%20Akpol">Akpol</a></li>
+                        <li><a href="https://bimbelcpns.id/?kebutuhan=Les%20Privat%20Kedinasan">Kedinasan</a></li>
+                        <li><a href="https://bimbelcpns.id/?kebutuhan=Les%20Privat%20CPNS">CPNS</a></li>
+                        <li><a href="https://bimbelcpns.id/?kebutuhan=Les%20Privat%20PPPK">PPPK</a></li>
+                        <li><a href="https://bimbelcpns.id/?kebutuhan=Les%20Privat%20BUMN">BUMN</a></li>
+                        <li><a href="https://bimbelcpns.id/?kebutuhan=Les%20Privat%20LPDP">LPDP</a></li>
+                        <li><a href="https://bimbelcpns.id/?kebutuhan=Les%20Privat%20ABK%20/%20Inklusi">ABK / Inklusi</a></li>
+                        <li><a href="https://bimbelcpns.id/?kebutuhan=Les%20Privat%20Mengaji">Mengaji</a></li>
+                        <li><a href="https://bimbelcpns.id/?kebutuhan=Les%20Privat%20Coding">Coding</a></li>
+                        <li><a href="https://bimbelcpns.id/?kebutuhan=Les%20Privat%20Robotik">Robotik</a></li>
+                        <li><a href="https://bimbelcpns.id/?kebutuhan=Les%20Privat%20Sempoa">Sempoa</a></li>
+                        <li><a href="https://bimbelcpns.id/?kebutuhan=Les%20Privat%20Komputer">Komputer</a></li>
+                        <li><a href="https://bimbelcpns.id/?kebutuhan=Les%20Sesuai%20Kebutuhan">Les Sesuai Kebutuhan</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Footer bawah -->
+            <div class="footer-bottom">
+                <p>
+                    <span class="copyright-icon">&copy;</span>
+                    <b>bimbelcpns.id</b>
+                </p>
+            </div>
+
+        </div>
+    </footer>
+    <a href="https://wa.privatnusantara.com/"
+       class="wa-floating"
+       target="_blank"
+       rel="noopener"
+       aria-label="Hubungi kami melalui WhatsApp">
+        <i class="bi bi-whatsapp"></i>
+        <span>Hubungi Kami</span>
+    </a>
+
+
+</body>
+</html>
